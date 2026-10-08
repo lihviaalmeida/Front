@@ -1,0 +1,74 @@
+.conteudo {
+    width: 100%;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 2px;
+}
+
+.cadastro {
+    background: #f1e5d4;
+    border: 2px solid #dcc4a4;
+    border-radius: 12px;
+    padding: 40px 25px 25px;
+    margin-bottom: 28px;
+}
+
+.cadastro h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.cadastro form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cadastro input {
+    height: 20px;
+    padding: 2px 4px;
+}
+
+.cadastro button {
+    height: 22px;
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+.lista h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead {
+    background: #704329;
+    color: white;
+}
+
+th {
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background: #f1e5d4;
+}
+
+tbody tr:nth-child(even) {
+    background: white;
+}

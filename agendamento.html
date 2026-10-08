@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Agendamentos - Oficina Mecânica Country</title>
+
+    
+    <link rel="stylesheet" href="listagemstyle.css">
+    <link rel="stylesheet" href="Meunostyle.css">
+    <link rel="stylesheet" href="agendamentostyle.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+
+<body>
+
+
+    <nav class="menu">
+
+        <div class="logo">
+            <img src="img.mecanica/ChatGPT Image 1 de out. de 2026, 15_26_33.png"
+                 alt="Logo Oficina Mecânica Country">
+
+            <h2>Oficina Mecânica<br>Country</h2>
+        </div>
+
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Início
+        </a>
+
+        <a href="clientes.html">
+            <i class="fa-solid fa-user"></i>
+            Clientes
+        </a>
+
+        <a href="veiculo.html">
+            <i class="fa-solid fa-car"></i>
+            Veículos
+        </a>
+
+        <a href="agendamento.html" class="ativo">
+            <i class="fa-solid fa-calendar-days"></i>
+            Agendamentos
+        </a>
+
+    </nav>
+
+
+    <main class="conteudo">
+
+        <h1>
+            <i class="fa-solid fa-calendar-days"></i>
+            Agendamentos
+        </h1>
+
+        <p>
+            Cadastro e gerenciamento dos agendamentos da oficina.
+        </p>
+
+
+     
+        <div class="cadastro">
+
+            <h2>Novo Agendamento</h2>
+
+            <form>
+
+                <input
+                    type="date"
+                    name="dataAgendamento">
+
+                <input
+                    type="text"
+                    name="servico"
+                    placeholder="Digite o Serviço">
+
+                <input
+                    type="number"
+                    name="preco"
+                    placeholder="Digite o Preço"
+                    step="0.01">
+
+                <input
+                    type="number"
+                    name="veiculoId"
+                    placeholder="Digite o VeiculoId">
+
+                <input
+                    type="number"
+                    name="clienteId"
+                    placeholder="Digite o ClienteId">
+
+                <button type="submit">
+                    <i class="fa-solid fa-plus"></i>
+                    Cadastrar
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <!-- LISTA -->
+        <div class="lista">
+
+            <h2>
+                <i class="fa-solid fa-calendar-check"></i>
+                Lista de Agendamentos
+            </h2>
+
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            <i class="fa-solid fa-id-card"></i>
+                            ID
+                        </th>
+
+                        <th>
+                            <i class="fa-solid fa-calendar"></i>
+                            Data
+                        </th>
+
+                        <th>
+                            <i class="fa-solid fa-wrench"></i>
+                            Serviço
+                        </th>
+
+                        <th>
+                            <i class="fa-solid fa-money-bill"></i>
+                            Preço
+                        </th>
+
+                        <th>
+                            <i class="fa-solid fa-car"></i>
+                            VeiculoId
+                        </th>
+
+                        <th>
+                            <i class="fa-solid fa-user"></i>
+                            ClienteId
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>08/10/2026</td>
+                        <td>Troca de óleo</td>
+                        <td>150.00</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>09/10/2026</td>
+                        <td>Alinhamento</td>
+                        <td>100.00</td>
+                        <td>2</td>
+                        <td>2</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>10/10/2026</td>
+                        <td>Revisão</td>
+                        <td>300.00</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</body>
+</html>

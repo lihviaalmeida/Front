@@ -1,0 +1,35 @@
+
+.lista-clientes {
+    margin-top: 30px;
+}
+
+.lista-clientes h2 {
+    margin-bottom: 15px;
+    color: #3e2417;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+th {
+    background: #6b3e26;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    color: #000;
+}
+
+tr:nth-child(even) {
+    background: #f1e3d5;
+}
+
+tr:hover {
+    background: #d8b99a;
+}

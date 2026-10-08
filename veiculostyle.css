@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5eee6;
+    color: #171717;
+}
+
+
+
+
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 178px;
+    height: 100vh;
+    background: #432617;
+}
+
+
+
+
+.logo {
+    text-align: center;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.logo img {
+    width: 135px;
+    height: 125px;
+    object-fit: contain;
+}
+
+.logo h2 {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 0;
+    font-size: 16px;
+}
+
+.menu a i {
+    width: 22px;
+    margin-right: 0;
+}
+
+.menu a:hover {
+    background: #704329;
+}
+
+.menu a.ativo {
+    background: #8b6242;
+    border-radius: 0 8px 8px 0;
+}
+
+
+.conteudo {
+    margin-left: 178px;
+    width: calc(100% - 178px);
+    padding: 15px 29px 25px 34px;
+}
+
+
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: #171717;
+}
+
+h1 i {
+    color: #432617;
+}
+
+
+
+p {
+    margin-bottom: 2px;
+}
+
+
+
+.cadastro {
+    background: #f1e5d4;
+    border: 2px solid #dcc4a4;
+    border-radius: 12px;
+    padding: 40px 25px 25px;
+    margin-bottom: 28px;
+}
+
+
+
+.cadastro h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+
+.cadastro form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.cadastro input {
+    height: 20px;
+    padding: 2px 4px;
+    border: 1px solid #777;
+}
+
+
+
+
+.cadastro input[type="date"] {
+    width: 150px;
+}
+
+
+
+.cadastro input[type="text"] {
+    width: 170px;
+}
+
+.cadastro input[type="number"] {
+    width: 170px;
+}
+
+
+
+.cadastro button {
+    height: 22px;
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+
+
+
+.lista h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.lista h2 i {
+    color: #432617;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+
+
+thead {
+    background: #704329;
+    color: white;
+}
+
+th {
+    padding: 12px;
+}
+
+th i {
+    margin-right: 4px;
+}
+
+
+
+
+td {
+    padding: 10px;
+}
+
+
+
+tbody tr:nth-child(odd) {
+    background: #f1e5d4;
+}
+
+tbody tr:nth-child(even) {
+    background: #ffffff;
+}

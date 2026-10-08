@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Veículos - Oficina Mecânica Country</title>
+
+    <link rel="stylesheet" href="veiculostyle.css">
+    <link rel="stylesheet" href="Meunostyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+
+<body>
+
+
+    <nav class="menu">
+
+        <h2>
+            <i class="fa-solid fa-car"></i>
+            Sistema
+        </h2>
+
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Início
+        </a>
+
+        <a href="clientes.html">
+            <i class="fa-solid fa-user"></i>
+            Clientes
+        </a>
+
+        <a href="veiculos.html" class="ativo">
+            <i class="fa-solid fa-car"></i>
+            Veículos
+        </a>
+
+        <a href="agendamentos.html">
+            <i class="fa-solid fa-calendar-days"></i>
+            Agendamentos
+        </a>
+
+    </nav>
+
+
+
+    <main class="conteudo">
+
+        <h1>
+            <i class="fa-solid fa-car"></i>
+            Veículos
+        </h1>
+
+        <p>Cadastro e gerenciamento dos veículos da oficina.</p>
+
+
+        
+        <section class="cadastro">
+
+            <h2>
+                Novo Veículo
+            </h2>
+
+            <form>
+
+                <input
+                    type="text"
+                    placeholder="Digite o Modelo"
+                >
+
+                <input
+                    type="text"
+                    placeholder="Digite a Placa"
+                >
+
+                <input
+                    type="text"
+                    placeholder="Digite a Cor"
+                >
+
+                <input
+                    type="text"
+                    placeholder="Digite o Proprietário"
+                >
+
+                <button type="submit">
+                    <i class="fa-solid fa-plus"></i>
+                    Cadastrar
+                </button>
+
+            </form>
+
+        </section>
+
+
+       
+        <section class="lista">
+
+            <h2>
+                <i class="fa-solid fa-car-side"></i>
+                Lista de Veículos
+            </h2>
+
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            <i class="fa-solid fa-id-card"></i>
+                            ID
+                        </th>
+
+                        <th>
+                            <i class="fa-solid fa-car"></i>
+                            Modelo
+                        </th>
+
+                        <th>
+                            <i class="fa-solid fa-tag"></i>
+                            Placa
+                        </th>
+
+                        <th>
+                            <i class="fa-solid fa-palette"></i>
+                            Cor
+                        </th>
+
+                        <th>
+                            <i class="fa-solid fa-user"></i>
+                            Proprietário
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Honda Civic</td>
+                        <td>ABC-1234</td>
+                        <td>Preto</td>
+                        <td>Isabelle Kayano</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Toyota Corolla</td>
+                        <td>DEF-5678</td>
+                        <td>Branco</td>
+                        <td>João Nascimento</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Volkswagen Jetta</td>
+                        <td>GHI-9012</td>
+                        <td>Vermelho</td>
+                        <td>lihvia</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
